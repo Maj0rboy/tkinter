@@ -36,7 +36,7 @@ def back(image_number):
     button_forward = Button(root,text=">>", command=lambda:forward(image_number +1))
     button_back = Button(root,text="<<", command=lambda:back(image_number - 1))
     
-    if image_number == 0:
+    if image_number == 1:
         button_back = Button(root,text="<<",command=back,state=DISABLED)
         
         
