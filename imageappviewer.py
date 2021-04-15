@@ -37,7 +37,7 @@ def back(image_number):
     button_back = Button(root,text="<<", command=lambda:back(image_number - 1))
     
     if image_number == 1:
-        button_back = Button(root,text="<<",command=back,state=DISABLED)
+        button_back = Button(root,text="<<",state=DISABLED)
         
         
     my_label.grid(row=0,column=0, columnspan=3)
